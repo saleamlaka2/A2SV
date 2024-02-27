@@ -15,7 +15,6 @@ class Solution:
                 word=result[::-1]
                     
                 stack.extend(list(num*word))
-                # print(word,stack)
             else:
                 stack.append(ele)
         return "".join(stack)
